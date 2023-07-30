@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
 
 *{
     margin: 0;
@@ -9,7 +8,7 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(#91C8E4 50%, #749BC2 50%);
+    background-color:#91C8EB ;
 }
 
 .container{
@@ -133,21 +132,4 @@ p{
 
 .msg{
     text-align: center;
-}
-
-
-@media screen and (max-width: 600px) {
-    .container{
-        font-size: 14px;
-    }
-    .poster{
-        margin: auto;
-        width: auto;
-        max-height: 10.8em;
-    }
-
-    .info{
-        grid-template-columns: 1fr;
-    }
-
 }
